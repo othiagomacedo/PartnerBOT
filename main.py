@@ -1,4 +1,4 @@
-import PyPDF2
+import RequestEmail
 import Read
 
 pdf_file = Read.getPDF()
