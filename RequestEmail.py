@@ -2,6 +2,7 @@ import imaplib
 import email
 import os
 import base64
+import shutil
 
 def getPDFinEmail():
     emails = imaplib.IMAP4_SSL("imap.gmail.com")
